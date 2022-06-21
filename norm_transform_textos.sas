@@ -60,7 +60,7 @@ run;
 
 /*retorna a posição de um caracter específico*/
 data funcao_find;
-	texto = "Santander Jurídico";	
+	texto = "Testa texto";	
 	funcao_find = find(texto,"a");
 	
 	/*Procura a próxima letra "a" a partir do 4º caracter*/
