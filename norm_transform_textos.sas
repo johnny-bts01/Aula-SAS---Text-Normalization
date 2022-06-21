@@ -94,7 +94,7 @@ run;
 
 /*Retorna o texto de uma palavra através de uma posição inicial e seu tamanho esperado.*/
 data funcao_substr;
-	texto = "07.02.033.0002646505/18";
+	texto = "07.02.0xx.000xxxxx5/18";
 	funcao_substr = substr(texto,11,10);
 	miolo_dossie = input(funcao_substr,10.);
 run;
